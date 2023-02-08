@@ -6,6 +6,7 @@ MOSFET Simulation
 Xinv OUT IN VGND VPWR VGND INV0
 
 .subckt INV0 out in gnd vcc VSUBS
+
 * NGSPICE file created from mosfet.ext - technology: sky130A
 
 
@@ -46,3 +47,4 @@ plot OUT IN
 .endc
 
 .end
+
